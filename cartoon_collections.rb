@@ -9,7 +9,7 @@ end
 def summon_captain_planet(elements)
   new_array = []
   elements.map do |call|
-    new_array << "#{call.first.upcase}!"
+    new_array << "#{call.upcase}!"
   end
   new_array
 end
