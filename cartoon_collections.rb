@@ -27,5 +27,4 @@ def find_the_cheese(food)
     cheese_types.include? item
       puts "#{item}"
     end
-  end
 end
