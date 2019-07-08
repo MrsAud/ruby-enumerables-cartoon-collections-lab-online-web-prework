@@ -26,8 +26,6 @@ def find_the_cheese(food)
   food.detect do |item| 
     if cheese_types.include? item
       puts item
-    else
-      nil
     end
   end
 end
