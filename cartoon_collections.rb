@@ -1,4 +1,8 @@
-def roll_call_dwarves(array)
+def roll_call_dwarves(dwarves)
+  i = 1
+  dwarves.each do |name|
+    puts "#{i}. #{name}"
+  end
   # Your code here
 end
 
