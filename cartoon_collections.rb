@@ -16,8 +16,10 @@ end
 
 def long_planeteer_calls(elements)
   elements.map do |call|
-    if call.any? > 4
+    if call.size > 4
       true
+    else
+      false
     end
   end
 end
