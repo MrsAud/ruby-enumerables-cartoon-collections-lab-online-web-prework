@@ -15,12 +15,7 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(elements)
-  elements.map do |call|
-    if call.size > 4
-      true
-    else
-      false
-    end
+  elements any? do |call| call.size > 4 
   end
 end
 
